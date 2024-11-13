@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add dark mode styles here in your global CSS if needed */
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
